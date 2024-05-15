@@ -27,7 +27,7 @@ We will use the raw accelerometer data within the inertial_signals folder. The p
 
 7. Are there any participants/ activitivies where the Model performace is bad? If Yes, Why?
 
-# Deployment
+## Deployment
 Utilize apps like `Physics Toolbox Suite` from your smartphone to collect your data in .csv/.txt format. Ensure at least 15 seconds of data is collected, trimming edges to obtain 10 seconds of relevant data. Collect 3-5 samples per activity class and report accuracy using both featurized and raw data. You have to train on UCI dataset (You can use the entire dataset if you want) and test it on the data that you have collected and report the accuracy and confusion matrix. Test your model's performance on the collected data, explaining why it succeeded or failed. 
 
 ### **Things to take care of:**
@@ -35,5 +35,5 @@ Utilize apps like `Physics Toolbox Suite` from your smartphone to collect your d
 * Ensure the phone is in the same alignment during the activity as changing the alignment will change the data collected and will affect the model's performance. 
 * Ensure to have atleast 10s of data per file for training. As the data is collected at 50Hz, you will have 500 data samples.
 
-# Acknowledgement
+## Acknowledgement
 This project was done as part of the Machine Learning course at IIT Gandhinagar, under [Prof. Nipun Batra](https://nipunbatra.github.io/).
